@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HRRateView" customModule="HittaReviews" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="vh5-mj-dfp"/>
+                <outlet property="stackView" destination="YOs-br-0dj" id="zcn-yI-Ebi"/>
+                <outlet property="star_1" destination="DT4-W2-hoO" id="l0a-H4-Aqp"/>
+                <outlet property="star_2" destination="Vb5-NM-hje" id="aju-TJ-Kl8"/>
+                <outlet property="star_3" destination="fce-15-d1y" id="ikK-Mr-gtz"/>
+                <outlet property="star_4" destination="gEs-Ty-kN6" id="YJg-Vc-0JP"/>
+                <outlet property="star_5" destination="TiY-dR-O6r" id="tcK-Po-TdW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="248" height="39"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="YOs-br-0dj">
+                    <rect key="frame" x="0.0" y="0.0" width="248" height="39"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_empty" translatesAutoresizingMaskIntoConstraints="NO" id="DT4-W2-hoO">
+                            <rect key="frame" x="0.0" y="0.0" width="36" height="39"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_empty" translatesAutoresizingMaskIntoConstraints="NO" id="Vb5-NM-hje">
+                            <rect key="frame" x="53" y="0.0" width="36" height="39"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_empty" translatesAutoresizingMaskIntoConstraints="NO" id="fce-15-d1y">
+                            <rect key="frame" x="106" y="0.0" width="36" height="39"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_empty" translatesAutoresizingMaskIntoConstraints="NO" id="gEs-Ty-kN6">
+                            <rect key="frame" x="159" y="0.0" width="36" height="39"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_empty" translatesAutoresizingMaskIntoConstraints="NO" id="TiY-dR-O6r">
+                            <rect key="frame" x="212" y="0.0" width="36" height="39"/>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YOs-br-0dj" secondAttribute="trailing" id="246-nV-lkz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="YOs-br-0dj" secondAttribute="bottom" id="hzs-LP-hog"/>
+                <constraint firstItem="YOs-br-0dj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="tWe-2F-h9x"/>
+                <constraint firstItem="YOs-br-0dj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ulm-XB-IBw"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-16" y="-252.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star_empty" width="37" height="36"/>
+    </resources>
+</document>

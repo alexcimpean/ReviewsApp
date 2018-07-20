@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  HittaReviews
+
+  Created by Alexandru Cimpean on 18/07/2018.
+  Copyright © 2018 Alexandru Cimpean. All rights reserved.
+*/
+
+
+"rating_text_1" = "I hated it";
+"rating_text_2" = "I didn't like it";
+"rating_text_3" = "It was OK";
+"rating_text_4" = "I liked it";
+"rating_text_5" = "I loved it";
+"placeholder_name" = "Your name";
+"placeholder_description" = "Add more details on your experience...";
